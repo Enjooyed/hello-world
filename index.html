@@ -4,69 +4,169 @@
 <head>
   <meta charset="UTF-8">
   <title>Hello World</title>
+</head>
 
-  <style>
-    .red-text {
-      color: red;
-    }
-
-    p {
-      font-size: 16px;
-    }
-  </style>
-
-  <h2 class="red-text">CatPhotoApp</h2>
-  <main>
-    <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
-
-    <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-        alt="A cute orange cat lying on its back."></a>
+<body>
 
 
-    <form action="https://freecatphotoapp.com/submit-cat-photo">
-      <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-      <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-      <label><input type="checkbox" name="personality" checked> Loving</label>
-      <label><input type="checkbox" name="personality"> Lazy</label>
-      <label><input type="checkbox" name="personality"> Energetic</label><br>
-      <input type="text" placeholder="cat photo URL" required>
-      <button type="submit">Submit</button>
-    </form>
-  </main>
-
-  -->
-
-  <div class="top-discount-banner"
-    style="background: url(img/top-discount-banner.png); background-size: contain; background-repeat: no-repeat;" <p
-    class="top-discount-banner">SALE OF THE MONTH</p>
+  <div class="top-discount"
+    style="background: url(img/top-discount-banner.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+    <p class="top-discount-banner">SALE OF THE MONTH</p>
     <h2 class="top-discount-banner">Get Your Discount.</h2>
-    <a href="#" class="top-discount-banner-button">Shop Now →</a>
+    <a href="#" class="top-discount-button">Shop Now →</a>
+
     <style>
-      .top-discount-banner {
-        width: 1650px;
-        height: 890px;
+      .top-discount {
+        border: solid black;
+        top: 10px;
+        left: 0px;
+        right: 0px;
+        width: 2350px;
+        height: 1050px;
+        margin: 10px;
       }
     </style>
   </div>
 
-  <div class="discount-20-banner"
-    style="background: url(img/discount-20.png); background-size: contain; background-repeat: no-repeat;" <h4
-    class="discount-20-banner">20% OFF ALL T-shirts</h4>
-    <a href="#" class="discount-20-button">Shop Collection →</a>
-    <style>
-      .discount-20-banner {
-        width: 550px;
-        height: 500px;
-      }
-    </style>
+  <div class="all-discount" style="display: flex;">
+
+    <div class="discount-20-banner"
+      style="background: url(img/discount-20.png); background-size: cover; background-position: left;">
+      <h4 class="discount-20-banner">20% OFF ALL T-shirts</h4>
+      <a href="#" class="discount-20-button">Shop Collection →</a>
+
+      <style>
+        .discount-20-banner {
+         
+          top: 10px;
+          left: 0px;
+          right: 10px;
+          width: 700px;
+          height: 450px;
+          margin: 10px;
+          margin-right: 70px;
+        }
+      </style>
+    </div>
+
+    <div class="discount-30-banner"
+      style="background: url(img/discount-30.jpeg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+      <h4 class="discount-30-banner">30% OFF ALL jackets</h4>
+      <a href="#" class="discount-30-button">Shop Collection →</a>
+
+      <style>
+        .discount-30-banner {
+        
+          top: 10px;
+          left: 0px;
+          right: 0px;
+          width: 700px;
+          height: 450px;
+          margin: 10px;
+          margin-right: 70px;
+        }
+      </style>
+    </div>
+
+    <div class="discount-25-banner"
+      style="background: url(img/discount-25.jpeg); background-repeat: no-repeat; background-size: cover; background-position: right;">
+      <h4 class="discount-25-banner">25% off all trainers</h4>
+      <a href="#" class="discount-25-button">Shop Collection →</a>
+
+      <style>
+        .discount-25-banner {
+          top: 10px;
+          left: 0px;
+          right: 10px;
+          width: 700px;
+          height: 450px;
+          margin: 10px;
+        }
+      </style>
+    </div>
   </div>
 
-  <div class="discount-30-banner"
-    style="background: url(img/discount-30.jpeg); background-size: contain; background-repeat: no-repeat;" <h4
-    class="discount-30-banner">30% OFF ALL jackets</h4>
-    <a href="#" class="discount-30-button">Shop Collection →</a>
-    <style>
-      .discount-30-banner {
-        width: 550px;
-        height: 500px;
-      }
+</body>
+
+</html>
+
+
+
+<div class="top-discount"
+            style="background: url(img/discount-img/top-discount-banner.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+            <p class="top-discount-banner">SALE OF THE MONTH</p>
+            <h2 class="top-discount-banner">Get Your Discount.</h2>
+            <a href="#" class="top-discount-button">Shop Now →</a>
+
+            <style>
+                .top-discount {
+                    border: solid black;
+                    top: 10px;
+                    left: 0px;
+                    right: 0px;
+                    width: 1870px;
+                    height: 800px;
+                    margin: 10px;
+                }
+            </style>
+        </div>
+
+        <div class="all-discount" style="display: flex;">
+
+            <div class="discount-20-banner"
+                style="background: url(img/discount-img/discount-20.png); background-size: cover; background-position: left;">
+                <h4 class="discount-20-banner">20% OFF ALL T-shirts</h4>
+                <a href="#" class="discount-20-button">Shop Collection →</a>
+
+                <style>
+                    .discount-20-banner {
+
+                        top: 10px;
+                        left: 0px;
+                        right: 10px;
+                        width: 600px;
+                        height: 450px;
+                        margin: 10px;
+                        margin-right: 30px;
+                    }
+                </style>
+            </div>
+
+            <div class="discount-30-banner"
+                style="background: url(img/discount-img/discount-30.jpeg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                <h4 class="discount-30-banner">30% OFF ALL jackets</h4>
+                <a href="#" class="discount-30-button">Shop Collection →</a>
+
+                <style>
+                    .discount-30-banner {
+
+                        top: 10px;
+                        left: 0px;
+                        right: 0px;
+                        width: 600px;
+                        height: 450px;
+                        margin: 10px;
+                        margin-right: 30px;
+                        margin-left: 10px;
+                    }
+                </style>
+            </div>
+
+            <div class="discount-25-banner"
+                style="background: url(img/discount-img/discount-25.jpeg); background-repeat: no-repeat; background-size: cover; background-position: right;">
+                <h4 class="discount-25-banner">25% off all trainers</h4>
+                <a href="#" class="discount-25-button">Shop Collection →</a>
+
+                <style>
+                    .discount-25-banner {
+                        top: 10px;
+                        left: 0px;
+                        right: 10px;
+                        width: 590px;
+                        height: 450px;
+                        margin: 10px;
+
+                    }
+                </style>
+            </div>
+        </div>
